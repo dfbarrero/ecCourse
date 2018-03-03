@@ -12,9 +12,11 @@
 
 * [Understanding parameters settings in Evolutionary Algorithms](assignments/parameters/parameters.md)
 
-* [Programming Evolutionary Algorithms with Inspyred](assignments/programming/programming.md)
+* [Programming Evolutionary Algorithms with Inspyred](assignments/inspyred/inspyred.md)
 
 * [Symbolic regression with Genetic Programming](assignments/regression/regression.md)
+
+* [Optimization of the trajectory of a spacecraft to the Moon](assignments/moonshot/moonshot.md)
 
 ## Compilation
 
