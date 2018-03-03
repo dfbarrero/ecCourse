@@ -106,6 +106,9 @@ This exercise deals with the optimization of a function. We will optimize the pa
 
 $f(x) = 418.9829n - \sum_{i=1}^n \left[-x_i \sin(\sqrt{|x_i|})\right]$
 
+![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+
+
 where *n* represents the number of dimensions and $x_i \in [-500, 500] \forall i=1,...,n$. The input values that optimizes the function is $[420.9687, 420.9687, ..., 420.9687]$, this a minimization task and the best fitness is $0$. A graphical representation of this problem for $n=2$ (two dimensions) follows.
 
 <img src="figs/schwefel.png" width="400">
