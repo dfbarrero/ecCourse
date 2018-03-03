@@ -8,11 +8,11 @@
 
 ## Practical assignments
 
-* [One-max problem with a basic Genetic Algorithm](assignment/onemax/onemax.pdf)
+* [One-max problem with a basic Genetic Algorithm](assignments/onemax/onemax.pdf)
 
-* [Understanding parameters settings in Evolutionary Algorithms](assignment/parameters/parameters.pdf)
+* [Understanding parameters settings in Evolutionary Algorithms](assignments/parameters/parameters.pdf)
 
-* [Programming Evolutionary Algorithms with Inspyred](assignment/programming/programming.pdf)
+* [Programming Evolutionary Algorithms with Inspyred](assignments/programming/programming.pdf)
 
 ## Compilation
 
