@@ -104,17 +104,13 @@ Perform the following tasks:
 
 This exercise deals with the optimization of a function. We will optimize the parameters of a function named the Schwefel function, that can be formally stated as follows:
 
-#$f(x) = 418.9829n - \sum_{i=1}^n \left[-x_i \sin(\sqrt{|x_i|})\right]$
-
-#![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-
 <img src="figs/eqn.png">
 
-where *n* represents the number of dimensions and $x_i \in [-500, 500] \forall i=1,...,n$. The input values that optimizes the function is $[420.9687, 420.9687, ..., 420.9687]$, this a minimization task and the best fitness is $0$. A graphical representation of this problem for $n=2$ (two dimensions) follows.
+where *n* represents the number of dimensions and x_i \in [-500, 500] for all i=1,...,n. The input values that optimizes the function is [420.9687, 420.9687, ..., 420.9687], this a minimization task and the best fitness is 0. A graphical representation of this problem for n=2 (two dimensions) follows.
 
 <img src="figs/schwefel.png" width="400">
 
-The code that implemens a GA that solves the Schwefel problem is the next listing. You can download the (code here)[code/ga_example]. 
+The code that implemens a GA that solves the Schwefel problem is the next listing. You can download the (code here)[code/ga_example.py]. 
 
 ```Python
 from random import Random
@@ -185,7 +181,9 @@ Please observe that the main algorithm parameters have been deleted. The remaini
 
 Perform the following tasks:
 
-1. Set the parameters to get a perfect solution (fitness=$0$).
+1. Set the parameters to get a perfect solution (fitness=0).
+
 2. Set the parameters to get the solution as soon as possible.
+
 3. Execute the algorithm 10 times and show a graph relating generation, best fitness and average fitness. To obtain the graph values, average across all the 10 runs. If necessary, change the code and use any external tool (Excel, Matlab, R, Gnuplot, ...) at your convenience.
 
