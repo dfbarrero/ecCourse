@@ -1,4 +1,4 @@
-# One-max problem with a basic Genetic Algorithm
+# One-max problem with a basic Genetic Algorithm
 
 ## Objectives
 
