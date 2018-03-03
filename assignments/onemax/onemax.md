@@ -35,7 +35,7 @@ While solution not found
 
 The following figure outlines the algorithm to implement.
 
-![Genetic Algorithm flowchart](ga.jpg | width=200)
+![Genetic Algorithm flowchart](ga.jpg){width="200px"}
 
 (Image taken from [here](http://file.scirp.org/Html/1-8302163_41175.htm).)
 
