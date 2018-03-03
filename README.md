@@ -1,4 +1,4 @@
-# Evolutionary Computation
+# Evolutionary Computation
 
 ## Contents
 
