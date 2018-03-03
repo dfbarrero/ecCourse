@@ -25,7 +25,7 @@ f = (d_m/1000) + d + c - l
 
 Where d_m is the mimimum distance from Moon, d the total distance traveled, c Moon crash penalty (1000) and l Earth landing reward (1000). Therefore, this is a minimization problem. Execute the following tasks.
 
-1. Download the code that implements the fitness function (moonshot) and test it. The Boost velocity must be given in vectorial form (x, y).
+1. Download the code that implements the fitness function (moonshot) [from here](code/moonshotshort.py) and test it. Remember that the Boost velocity must be given in vectorial form (x, y).
 2. Design and implement an EA that solves the given problem.
 3. Modify the algorithm to consider the following constrains (Hint: Use Bounders): Orbital height in (6e6, 8e6); Satellite mass in (10.0, 40.0); Boost velocity (x, y) in ((3e3, 9e3), (-10000.0, 10000.0)); Initial y velocity in (4000, 6000).
 
