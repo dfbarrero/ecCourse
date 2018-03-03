@@ -35,9 +35,9 @@ While solution not found
 
 The following figure outlines the algorithm to implement.
 
-!(Genetic Algorithm flowchart)[figs/ga.jpg]
+![Genetic Algorithm flowchart](/figs/ga.jpg)
 
-(Image taken from [here]http://file.scirp.org/Html/1-8302163_41175.htm].)
+(Image taken from [here](http://file.scirp.org/Html/1-8302163_41175.htm).)
 
 Once the algorithm is implemented, perform the following tasks:
 
