@@ -10,7 +10,7 @@
 
 This exercise deals with an optimization problem of a real-valued function. The objective is to design the trajectory of a spacecraft in orbit on Earth to the Moon using a gravity assist maneuver (see the figure below). For simplicity the problem is reduced to 2D, and there is only one boost at the begining of the journey. 
 
-<img src="figs/orbita.png" width="400" alt="Example of evolved trajectory to the Moon and return">
+<img src="figs/moonshot.jpg" width="400" alt="Example of evolved trajectory to the Moon and return">
 
 With those considerations, the parameters to optimize are:
 
