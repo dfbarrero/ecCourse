@@ -84,7 +84,7 @@ The parameter setting used is the following one:
 
 Perform the following tasks:
 
-1. Execute the script to validate the installation of *inspyred*.
+1. Execute the script to validate the installation of *Inspyred*.
 
 2. Observe how average and best fitness evolve along the time. Explain their behavior.
 
@@ -98,17 +98,42 @@ Perform the following tasks:
 
 7. Set p_m=1.0. What happen?
 
-8. Set the chromosome length to $50$ and customize the algorithm to increase the probability of finding a solution.
+8. Set the chromosome length to 50 and customize the algorithm to increase the probability of finding a solution.
 
+## Real number function optimization with Inspyred
 
+This exercise deals with the optimization of a function. We will optimize the parameters of a function named the Schwefel function, that can be formally stated as follows:
 
+$f(x) = 418.9829n - \sum_{i=1}^n \left[-x_i \sin(\sqrt{|x_i|})\right]$
 
-<img align="center" src="ga.jpg" width="400">
+where *n* represents the number of dimensions and $x_i \in [-500, 500] \forall i=1,...,n$. The input values that optimizes the function is $[420.9687, 420.9687, ..., 420.9687]$, this a minimization task and the best fitness is $0$. A graphical representation of this problem for $n=2$ (two dimensions) follows.
 
-(Image taken from [here](http://file.scirp.org/Html/1-8302163_41175.htm).)
+<img src="figs/schwefel.png" width="400">
 
-Once the algorithm is implemented, perform the following tasks:
+The code that implemens a GA that solves the Schwefel problem is the next listing. You can download the (code here)[code/ga_example]. 
 
-1. Show the best fitness found in each generation. Execute the algorithm. How does the best fitness evolve?
-2. Compare the execution time with n=10, n=20 and n=100. (Hint: Use the Unix command *time*).
+```Python
+```
+
+Please observe that the main algorithm parameters have been deleted. The remaining parameters are as follows:
+
+* Representation: Binary
+
+* Chromosome length: 30
+
+* Crossover: n-point crossover
+
+* Mutation: Flip mutation
+
+* Mutation probability: X
+
+* Population size: X
+
+* Termination: 8,000 evaluations
+
+Perform the following tasks:
+
+1. Set the parameters to get a perfect solution (fitness=$0$).
+2. Set the parameters to get the solution as soon as possible.
+3. Execute the algorithm 10 times and show a graph relating generation, best fitness and average fitness. To obtain the graph values, average across all the 10 runs. If necessary, change the code and use any external tool (Excel, Matlab, R, Gnuplot, ...) at your convenience.
 
