@@ -1,12 +1,12 @@
 # One-max problem with a basic Genetic Algorithm
 
-## Objectives
+## Objectives
 
 * Understand the structure of a basic GA
 
 * Accustom oneself to the way EAs address problems
 
-## Practical assignment
+## Practical assignment
 
 Often, when someone begins to learn a new programming language he implements the famous ``Hello World'' program. The equivalent to this in Evolutionary Computation is the one-max, a trivial problem often used to practice a new EC framework or algorithm. The problem is straitforward: Given a binary chromosome of size $n$, the goal is to maximize the number of ones, i.e., to get an all ones chromosomes. The fitness function is just the sum of ones.
 
