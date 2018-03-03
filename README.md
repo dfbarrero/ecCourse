@@ -2,13 +2,18 @@
 
 Contents:
 
-* [Introduction to Evolutionary Computation](introEC/introEC.pdf)
+* [Introduction to Evolutionary Computation](introduction/introduction.pdf)
 
-* [Evolutionary Algorithms](EAs/EAs.pdf)
+* [Evolutionary Algorithms](algorithms/algorithms.pdf)
 
 
 # Practical assignments
 
+* [One-max problem with a basic Genetic Algorithm](assignment/onemax/onemax.pdf)
+
+* [Understanding parameters settings in Evolutionary Algorithms](assignment/parameters/parameters.pdf)
+
+* [Programming Evolutionary Algorithms with Inspyred](assignment/programming/programming.pdf)
 
 # Compilation
 
