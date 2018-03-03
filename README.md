@@ -6,8 +6,7 @@ Contents:
 
 * [Evolutionary Algorithms](algorithms/algorithms.pdf)
 
-
-# Practical assignments
+# Practical assignments
 
 * [One-max problem with a basic Genetic Algorithm](assignment/onemax/onemax.pdf)
 
