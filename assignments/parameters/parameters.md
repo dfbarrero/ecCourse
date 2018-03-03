@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Introduce \texttt{inspyred}
+* Introduce *inspyred*
 
 * Understand the parameter settings of a basic GA
 
@@ -19,9 +19,7 @@ Install *inspyred* following the instructions available on http://pythonhosted.o
 
 ## One-max problem with inspyred
 
-Copy or download the following script, which implements the one-max problem with a basic Genetic Algorithm. All the relevant algorithm parameters are contained in variables defined in the begining of the script.
-
-(code/onemax.py)
+Copy or [download](code/onemax.py) the following script, which implements the one-max problem with a basic Genetic Algorithm implemented with inspyred. All the relevant algorithm parameters are contained in variables defined in the begining of the script.
 
 ```Python
 from random import Random
@@ -86,19 +84,19 @@ The parameter setting used is the following one:
 
 Perform the following tasks:
 
-1. Execute the script to validate the installation of \textit{inspyred}.
+1. Execute the script to validate the installation of *inspyred*.
 
 2. Observe how average and best fitness evolve along the time. Explain their behavior.
 
 3. Execute the script several times, did it always find the solution? Why?
 
-4. Change the chromosome length to $30$ and repeat the previous questions.
+4. Change the chromosome length to 30 and repeat the previous questions.
 
 5. Customize the algorithm settings to increase the probability of finding a solution.
 
-6. Set $p_m=0.5$. What happen?
+6. Set p_m=0.5. What happen?
 
-7. Set $p_m=1.0$. What happen?
+7. Set p_m=1.0. What happen?
 
 8. Set the chromosome length to $50$ and customize the algorithm to increase the probability of finding a solution.
 
