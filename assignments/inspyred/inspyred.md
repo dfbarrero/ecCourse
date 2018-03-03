@@ -31,21 +31,21 @@ prng.seed(time())
 
 Inspyred is a well-documented project. Go to the project website in http://pythonhosted.org/inspyred/index.html and read the following texts:
 
-* Read the ``Overview''. Pay special attention to the section ``Design Methodology''
-* *Do not* read the tutorial (the following exercises are inspired in those examples)
-* Examine the examples ``Genetic Algorithm'' and ``Evolution Strategy'' within the ``Examples'' section
-* Read carefully the subsection ``Customized Algorithms'',  within the ``Examples'' section
+* Read the "Overview". Pay special attention to the section "Design Methodology";
+* *Do not* read the tutorial (the following exercises are inspired in those examples);
+* Examine the examples "Genetic Algorithm" and "Evolution Strategy" within the "Examples" section;
+* Read carefully the subsection "Customized Algorithms",  within the "Examples" section.
 
-Once you got a general understanding on the structure of Inspyred, you should get used to handle its reference manual and source code. Much of the features are not documented, and many times there are doubs that requires reading the source code. Based on the reference library (Located in http://pythonhosted.org/inspyred/reference.html), answer the following questions:
+Once you got a general understanding on the structure of Inspyred, you should get used to handle its reference manual and source code. Much of the features are not documented, and many times there are doubs that requires reading the source code. Based on the reference library (located in http://pythonhosted.org/inspyred/reference.html), answer the following questions:
 
-1. Identify all the \textit{mutation} methods available by default.
-2. Identify all the \textit{recombination} methods available by default.
-3. Identify all the \textit{parent selection} methods available by default.
-4. Identify all the \textit{survivor selection} methods available by default.
-5. Identify all the \textit{termination} methods available by default.
+1. Identify all the *mutation* methods available by default.
+2. Identify all the *recombination* methods available by default.
+3. Identify all the *parent selection* methods available by default.
+4. Identify all the *survivor selection* methods available by default.
+5. Identify all the *termination* methods available by default.
 6. Identify all the methods available to inspect the population throughout the evolutionary process.
 
-## Playing with Inspyred
+## Playing with Inspyred
 
 Based on the code of the one-max problem introduced in the previous practical assigment, perform the following tasks.
 
@@ -65,5 +65,3 @@ Implement a GA to solve the previously described problem. Divide this task into 
 1. Implement an skeleton of the algorithm with *Inspyred* with default components.
 2. Define and implement the fitness function.
 3. Implement a customized crossover operator that only splits chromosomes in the boundaries of the repeated pattern [0,1,1,1]. Compare this operator with one-point crossover.
-
-
