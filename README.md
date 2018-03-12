@@ -6,6 +6,8 @@
 
 * [Evolutionary Algorithms](algorithms/algorithms.pdf)
 
+* [Neuroevolution](neuroevolution/neuroevolution.pdf)
+
 ## Practical assignments
 
 * [One-max problem with a basic Genetic Algorithm](assignments/onemax/onemax.md)
