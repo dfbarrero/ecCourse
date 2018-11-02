@@ -1,4 +1,4 @@
-THIS IS A LEGACY PACKAGE. ALL ITS CONTENTS HAVE BEEN MOVED TO (https://github.com/dfbarrero/aiCourse). THIS PACKAGE IS NO LONGER MAINTAINED.
+THIS IS A LEGACY REPOSITORY. ALL ITS CONTENTS HAVE BEEN MOVED TO (https://github.com/dfbarrero/aiCourse). THIS PACKAGE IS NO LONGER MAINTAINED.
 
 # Evolutionary Computation course
 
